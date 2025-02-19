@@ -32,8 +32,8 @@ Instead of **recomputing k-mer frequencies from scratch** for each new window, I
 3️⃣ **Check for frequent k-mers** in the updated window.  
 
 ### **Why This is More Efficient?**  
-✅ Reduces time complexity from **O(nL) → O(n)**.  
-✅ Avoids redundant recalculations, making it **suitable for large genomes**.  
+ Reduces time complexity from **O(nL) → O(n)**.  
+ Avoids redundant recalculations, making it **suitable for large genomes**.  
 
 ---
 
@@ -42,14 +42,7 @@ Instead of **recomputing k-mer frequencies from scratch** for each new window, I
 |------------|--------|-------------|
 | `E_coli.txt` | [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/) | Full *E. coli* genome sequence |
 
----
 
-## 📊 Key Findings  
-- ✅ **Frequent k-mers (9-mers) formed clumps** in a specific genome region.  
-- ✅ The top candidate regions **match known ORI markers**.  
-- ✅ Further validation is needed with **genome annotation**.  
-
----
 
 ## 🚀 How to Run the Code  
 
@@ -66,10 +59,10 @@ cd ecoli-ori-analysis
 
 
 🛠 Technologies Used
-✅ Python (NumPy, Pandas)
+✅ Python
 ✅ Algorithm Design (Sliding Window, Clump Finding)
-✅ Matplotlib & Seaborn (for Visualization)
+✅ Matplotlib 
 
 
-👨‍💻 Author
-👤 Zackary Davis – Aspiring Data Scientist with a background in Biomedicine
+ Author
+ Zackary Davis 
